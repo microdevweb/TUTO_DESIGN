@@ -59,6 +59,9 @@ Module ShapeFactory
     Map myShape._shape()
   EndStructure
   ;}
+  ;{ GLOBALS VARIABLES
+  Global NewMap mySheets._sheet()
+  ;}
   ;{ CLASS SOURCE CODE
   XIncludeFile "Classes/Sheet.pbi"
   XIncludeFile "Classes/BoxShape.pbi"
@@ -67,6 +70,7 @@ Module ShapeFactory
   ;}
 EndModule
 ; IDE Options = PureBasic 5.73 LTS (Windows - x64)
-; CursorPosition = 30
+; CursorPosition = 62
+; FirstLine = 35
 ; Folding = --
 ; EnableXP
